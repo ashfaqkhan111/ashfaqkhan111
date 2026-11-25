@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+  <defs>
+    <linearGradient id="fw" x1="0" x2="1">
+      <stop offset="0" stop-color="#1d4ed8"/><stop offset=".5" stop-color="#7c3aed"/><stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#fw)" opacity=".35">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite" values="
+      M0 60 Q225 20 450 60 T900 60 V120 H0Z;
+      M0 60 Q225 100 450 60 T900 60 V120 H0Z;
+      M0 60 Q225 20 450 60 T900 60 V120 H0Z"/>
+  </path>
+  <path fill="url(#fw)" opacity=".6">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="
+      M0 80 Q225 110 450 80 T900 80 V120 H0Z;
+      M0 80 Q225 50 450 80 T900 80 V120 H0Z;
+      M0 80 Q225 110 450 80 T900 80 V120 H0Z"/>
+  </path>
+  <text x="450" y="34" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13" fill="#94a3b8">thanks for stopping by — keep building <tspan fill="#38bdf8">⚡</tspan></text>
+</svg>
